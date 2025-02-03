@@ -29,7 +29,7 @@ Cometi um erro ao interpretar as instruções da ferramenta:
 - Pensei que o **aztfexport** utilizava o **ARM template** gerado no portal da Azure.
 - **Deletei o ambiente** antes de rodar o **aztfexport**.
 - Descobri que a ferramenta **precisa do ambiente rodando** para capturar seu estado e convertê-lo para Terraform.
-- Tenho salvos os arquivos do meu ambiente ARM template (template.json e parameters.json)
+- Tenho salvos os arquivos do meu ambiente ARM template (template.json e parameters.json) porém não consigo utizá-los para o redeploy, surgem muitos erros e mesmo abordando um por um não parece que funcionará.
 
 ---
 
