@@ -30,7 +30,10 @@ Cometi um erro ao interpretar as instruções da ferramenta:
 - **Deletei o ambiente** antes de rodar o **aztfexport**.
 - Descobri que a ferramenta **precisa do ambiente rodando** para capturar seu estado e convertê-lo para Terraform.
 - Tenho salvos os arquivos do meu ambiente ARM template (template.json e parameters.json) porém não consigo utizá-los para o redeploy, surgem muitos erros e mesmo abordando um por um não parece que funcionará.
-
+- Update em 05/02/2025 - 3 arquivos terraform adicionados, precisam ser descomprimidos juntos para formar o diretório completo (foram comprimidos e dividos com 7zip)
+- Ambiente não funcional, problemas de autenticação da aplicação, provavelmente uma identity configurada errada.
+- Arquivos terraform gerados a partir da ferramenta aztfexport, porções "corrigidas" via GPT4o
+- Próximos passos, aprimoramento nos conhecimentos por meio de estudos para cert AZ104, estudo de terraform.
 ---
 
 ## 🔄 Próximos Passos
@@ -45,6 +48,8 @@ Cometi um erro ao interpretar as instruções da ferramenta:
 ---
 
 📌 **Objetivo Final:**  
-Garantir que o ambiente seja provisionado corretamente via **Terraform**, sem dependência do portal da Azure.  
+Garantir que o ambiente seja provisionado corretamente via **Terraform**, sem dependência do portal da Azure. 
+
+
 
 
